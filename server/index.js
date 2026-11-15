@@ -29,7 +29,7 @@ const todoSchema = new mongoose.Schema(
 const Todo = mongoose.model('Todo', todoSchema);
 
 app.get('/name', (_req, res) => {
-  res.type('text/plain').send(`Developer Name: ${process.env.DEVELOPER_NAME || 'Abin'}`);
+  res.type('text/plain').send(`Developer Name: ${process.env.DEVELOPER_NAME || 'Abin Mathew'}`);
 });
 
 app.get('/api/health', (_req, res) => {

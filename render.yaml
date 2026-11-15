@@ -10,4 +10,4 @@ services:
       - key: MONGODB_URI
         sync: false
       - key: DEVELOPER_NAME
-        value: Abin
+        value: Abin Mathew

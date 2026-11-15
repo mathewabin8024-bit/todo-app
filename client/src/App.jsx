@@ -93,7 +93,7 @@ function App() {
       <header className="topbar">
         <a className="brand" href="#top" aria-label="Daymark home"><span className="brand-mark"><Check size={17} strokeWidth={2.8} /></span><span>daymark<span className="brand-dot">.</span></span></a>
         <div className="top-note"><span className="online-dot" /> A little more clarity, every day</div>
-        <a className="name-chip" href={`${apiBase}/name`} target="_blank" rel="noreferrer"><span className="avatar">{name ? name.charAt(0).toUpperCase() : 'A'}</span><span>{name || 'Abin'}</span></a>
+        <a className="name-chip" href={`${apiBase}/name`} target="_blank" rel="noreferrer"><span className="avatar">{name ? name.charAt(0).toUpperCase() : 'A'}</span><span>{name || 'Abin Mathew'}</span></a>
       </header>
 
       <section className="hero" id="top">

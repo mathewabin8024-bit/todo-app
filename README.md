@@ -29,7 +29,7 @@ The backend deployment already serves the app. If a separate frontend URL is req
 
 ## Submission checklist
 
-- Developer Name: Abin (set `DEVELOPER_NAME=Abin` in the backend environment)
+- Developer Name: Abin Mathew (set `DEVELOPER_NAME=Abin Mathew` in the backend environment)
 - Live Frontend URL: deployed Vercel URL, or the backend URL if using the backend-served app
 - Live Backend Base URL: deployed Render URL
 - GitHub Repository URL: your public repository URL
